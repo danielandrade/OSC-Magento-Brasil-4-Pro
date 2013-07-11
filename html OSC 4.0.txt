@@ -16,7 +16,7 @@
 
 <br/>
 <h3>Endereco</h3>
-{{if street1}}Enredeco: <strong>{{var street1}}</strong><br />{{/if}}
+{{if street1}}Endereco: <strong>{{var street1}}</strong><br />{{/if}}
 {{depend street2}}Numero: <strong>{{var street2}}</strong><br />{{/depend}}
 {{depend street3}}Complemento: <strong>{{var street3}}</strong><br />{{/depend}}
 {{depend street4}}Bairro: <strong>{{var street4}}</strong><br />{{/depend}}
